@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barakallahu fii umrik, Hani 💙</title>
+  <meta name="description" content="Ucapan ulang tahun manis untuk Hani — 20 Agustus 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sparkles" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="moon">☾</div>
+    <div class="hero-card">
+      <span class="eyebrow">20 • 08 • 2026</span>
+      <p class="arabic">بَارَكَ اللّٰهُ فِي عُمْرِكِ</p>
+      <h1>Happy Birthday,<br><span>Hani! 💙</span></h1>
+      <p class="lead">Hari ini bukan sekadar bertambah usia,<br>tapi bertambah satu tahun lagi untuk tumbuh, tersenyum, dan menjadi versi terbaik dari diri sendiri.</p>
+      <button class="scroll-btn" onclick="document.querySelector('#ucapan').scrollIntoView({behavior:'smooth'})">Buka ucapannya ↓</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section intro" id="ucapan">
+      <div class="section-label">a little birthday note</div>
+      <h2>Untuk Hani yang hari ini<br><em>sedang bertambah dewasa ✨</em></h2>
+      <div class="letter">
+        <p>Assalamu'alaikum, Hani 🤍</p>
+        <p>Selamat ulang tahun yaa! Hari ini, <strong>20 Agustus 2026</strong>, semoga menjadi awal dari tahun yang jauh lebih indah daripada tahun-tahun sebelumnya.</p>
+        <p>Semoga semua hal baik yang sedang kamu perjuangkan pelan-pelan menemukan jalannya. Semoga langkahmu selalu ditemani orang-orang yang tulus, hati yang tenang, dan rezeki yang cukup.</p>
+        <p>Dan kalau suatu hari semuanya terasa berat, semoga kamu selalu ingat bahwa kamu sudah melewati begitu banyak hal sampai sejauh ini. Kamu hebat, Hani. 🌷</p>
+        <p class="signature">— dari seseorang yang mendoakanmu baik-baik 💙</p>
+      </div>
+    </section>
+
+    <section class="section gallery-section">
+      <div class="section-label">little memories</div>
+      <h2>Birthday girl 📸</h2>
+      <div class="gallery">
+        <figure class="photo tall"><img src="assets/hani-1.png" alt="Foto Hani"></figure>
+        <figure class="photo cake"><img src="assets/cake-16.jpg" alt="Kue ulang tahun dengan lilin angka 16"></figure>
+        <figure class="photo"><img src="assets/hani-2.png" alt="Foto Hani tersenyum"></figure>
+      </div>
+    </section>
+
+    <section class="section prayer-section">
+      <div class="dua-card">
+        <div class="ornament">✦</div>
+        <div class="section-label">a special dua for you</div>
+        <h2>Doa untuk Hani 🤲🏻</h2>
+        <p class="dua-arabic">اللَّهُمَّ بَارِكْ لَهَا فِي عُمْرِهَا، وَارْزُقْهَا قَلْبًا مُطْمَئِنًّا، وَحَيَاةً طَيِّبَةً، وَمُسْتَقْبَلًا جَمِيلًا</p>
+        <p class="translation">“Ya Allah, berkahilah usianya, berikanlah hati yang tenang, kehidupan yang baik, dan masa depan yang indah.”</p>
+        <div class="dua-list">
+          <span>🤍 Semoga sehat selalu</span>
+          <span>🌙 Semoga iman & ibadahnya semakin kuat</span>
+          <span>🌱 Semoga cita-citanya dimudahkan</span>
+          <span>✨ Semoga rezekinya luas dan penuh berkah</span>
+          <span>🕊️ Semoga hatinya selalu diberi ketenangan</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section music-section">
+      <div class="music-card">
+        <div class="music-icon">♪</div>
+        <div>
+          <div class="section-label">birthday soundtrack</div>
+          <h2>Putar lagu buat Hani 🎶</h2>
+          <p>Pilih file MP3 dari perangkatmu. Setelah dipilih, lagunya akan muncul di sini dan bisa langsung diputar.</p>
+        </div>
+        <label class="upload-btn">
+          Pilih MP3
+          <input id="audioFile" type="file" accept="audio/mpeg,audio/mp3,audio/*" hidden>
+        </label>
+        <audio id="player" controls preload="metadata" src="assets/snooze.mp3"></audio>
+        <p id="audioName" class="audio-name">🎵 SZA — Snooze</p>
+        <small>Tip: browser biasanya memblokir autoplay, jadi lagu dimulai setelah Hani menekan tombol play. 💙</small>
+      </div>
+    </section>
+
+    <section class="section final">
+      <div class="final-card">
+        <span class="tiny-star">✦ ✦ ✦</span>
+        <h2>Once again…<br><span>Happy Birthday, Hani! 🎂</span></h2>
+        <p>Barakallahu fii umrik. Semoga tahun ke-17 ini penuh cerita yang baik, kejutan yang manis, dan doa-doa yang satu per satu Allah kabulkan. Aamiin ya Rabbal 'alamin. 🤍</p>
+        <button class="heart-btn" onclick="makeHearts()">💙</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>made with lots of dua & blue hearts for Hani ♡</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
